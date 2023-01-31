@@ -33,6 +33,7 @@ input[type="checkbox"]{
     border-radius: 80px;
     box-shadow: var(--box-shadow);
     transition:ease-in-out 0.45s;
+    -webkit-tap-highlight-color: transparent;
 }
 .button{
     content: '';
@@ -44,4 +45,5 @@ input[type="checkbox"]{
     height: 72px;
     border-radius: 50%;
     transition: ease-in-out 0.45s;
+    -webkit-tap-highlight-color: transparent;
 }
