@@ -9,6 +9,9 @@ body{
     align-items: center;
     min-height: 100vh; 
     transition: all 0.6s;
+    outline-style: none;
+    /*Tirar a box ao clicar no botão no modo mobile*/
+    -webkit-tap-highlight-color: transparent;
 }
 .body.dark{
     background: #252525;
@@ -31,7 +34,6 @@ input[type="checkbox"]{
     box-shadow: var(--box-shadow);
     transition:ease-in-out 0.45s;
 }
-
 .button{
     content: '';
     position: absolute;
